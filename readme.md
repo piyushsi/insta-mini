@@ -19,7 +19,7 @@ metagetall.fetch('zayn').then(res=>{console.log(res);});
 ```
 
 
-Response will be an Object containing all the meta tags from the URL. All tags are output in the example above.
+Response will be an Object containing all the information from the id. All information are output in the example above.
 
 ## Stack/Library/Module Used
 ```
