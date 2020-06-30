@@ -22,7 +22,7 @@ const fetch = (id) => {
           url[3].substr(5);
 
         var title = res.split("<title>")[1].split("</title>")[0];
-        var name = title.split("(")[0];
+        var name = title.split("(")[0].substr(1);
         var meta = res
           .split("<meta content=")[1]
           .split(' name="description"')[0];
@@ -33,7 +33,7 @@ const fetch = (id) => {
         return { name, hd_image_url, followers, following, posts, bio };
       }
       else {
-        return 'Profile not found'
+        console.log(res)
       }
     });
 };
