@@ -14,8 +14,8 @@ npm install insta-mini --save
 
 
 ``` javascript
-const metagetall = require('metagetall');
-metagetall.fetch('zayn').then(res=>{console.log(res);});
+const instagram = require('metagetall');
+instagram.fetch('zayn').then(res=>{console.log(res);});
 ```
 
 

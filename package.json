@@ -1,6 +1,6 @@
 {
   "name": "insta-mini",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A Node.js module to fetch Instagram details (HD dp image link, Name, Followers, Following, Posts).",
   "main": "index.js",
   "author": "Piyush Sinha <piyushsinha2309@gmail.com> (https://piyushsi.me)",

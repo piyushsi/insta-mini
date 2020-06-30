@@ -33,7 +33,7 @@ const fetch = (id) => {
         return { name, hd_image_url, followers, following, posts, bio };
       }
       else {
-        return 'Profile not found'
+        console.log(res) 
       }
     });
 };
